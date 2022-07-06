@@ -11,4 +11,4 @@ Repositorio de los ejercicios elaborados en las clases de los cursos de la Escue
 </div>
 
 ---------------------
-Cursos completados:
+## Cursos completados:

@@ -12,3 +12,5 @@ Repositorio de los ejercicios elaborados en las clases de los cursos de la Escue
 
 ---------------------
 ## Cursos completados:
+
+1.Curso de Prework: Configuración de Entorno de Desarrollo en Windows

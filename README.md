@@ -1,3 +1,5 @@
+---------------------
+
 <div align="center" >
 
 ## ESCUELA DE JAVASCRIPT
@@ -7,3 +9,6 @@
 
 Repositorio de los ejercicios elaborados en las clases de los cursos de la Escuela de JavaScript de Platzi
 </div>
+
+---------------------
+Cursos completados:

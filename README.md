@@ -9,7 +9,7 @@
 
 Repositorio de los ejercicios elaborados en las clases de los cursos de la Escuela de JavaScript de Platzi
   <br>
-Elaborado por: Isis Zapata
+<i>Elaborado por: Isis Zapata</i>
 </div>
 
 ---------------------

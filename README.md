@@ -16,6 +16,10 @@ Repositorio de los ejercicios elaborados en las clases de los cursos de la Escue
 ## Cursos completados:
 
 1.Curso de Prework: Configuración de Entorno de Desarrollo en Windows
+<br>
 2.Curso de Prework: Configuración de Entorno de Desarrollo en Linux
+<br>
 3.Curso de Prework: Configuración de Entorno de Desarrollo en macOS
+<br>
 4.Curso de Frontend Developer
+<br>

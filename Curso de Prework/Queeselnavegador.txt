@@ -1,0 +1,31 @@
+Un navegador web o web browser es un software o aplicación que permite al usuario acceder a sitios en Internet alrededor del mundo para conseguir información. Con el fin de brindar una respuesta confiable, el navegador obtiene datos de un sevidor web y luego se los enseña a un usuario a través de una pantalla.
+
+En sus inicios, los navegadores web se utilizaban únicamente para localizar y enseñar contenido de internet, pero con el tiempo se han convertido en grandes herramientas para realizar todo tipo de actividades que antes estaban solamente restringidas al entorno local de un computador.
+
+Ejemplos de navegadores web
+Estas plataformas se encuentran disponibles para todo tipo de dispositivos como computadores, teléfonos, tablets e incluso televisores inteligentes. Algunos ejemplos de navegador web son:
+
+-Google Chrome
+-Safari
+-Firefox
+-Opera
+-Eminent
+-Internet Explorer
+
+<img src="https://static.platzi.com/media/user_upload/historianavegadorweb-8c5c99b8-9270-4e01-bef2-aaa62b11593f.jpg">
+
+Versiones de Chrome para desarrollo web
+-Canary (se actualiza conforme se crean más versiones)
+-Dev (necesita una extensión en Chrome
+-Stable (para el usuario final )
+
+Cómo funcionan los navegadores web
+Cuando ingresas una URL o dirección del sitio web (por ejemplo: platzi.com), este programa se encarga de localizar el servidor correspondiente a esa dirección y enviarle una solicitud mediante el Protocolo de Transferencia de Hipertexto (HTTP). El servidor envía la respuesta y el navegador convierte este código en un sitio web entendible para el usuario.
+
+Para presentar el contenido de forma visual, el navegador se vale del lenguaje de marcado de hipertexto (HTML) y el lenguaje de estilo en cascadas (CSS), que dan un estilo visual a la información que se presentará en el navegador mediante etiquetas. Con el objetivo de que el usuario pueda interactuar con el contenido que se presenta en el sitio web, utiliza el lenguaje de JavaScript, que se encarga de manejar toda esta interacción en su código y enviarla de vuelta al servidor.
+
+Los navegadores también tienen la capacidad de mostrar otros protocolos y prefijos, como HTTPS, que es HTTP seguro (el estándar utilizado prácticamente en todos los sitios web actualmente), el Protocolo de Transferencia de Archivos (FTP), la gestión del correo electrónico (mailto:) y los archivos (file:).
+
+Además, la mayoría de los navegadores también admiten los complementos externos necesarios para mostrar contenidos activos, como videos, audio, archivos PDF y juegos dentro de la página.
+
+Contribución creada con los aportes de: Daniel Andrés Urrea, Luis Paucar y Said Alejandro Rosas Vera

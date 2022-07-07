@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de selectores: básicos y combinadores</title>
+
+    <style>
+        /*Selector universal*/
+        *
+        {
+            margin: 0;
+            padding: 0;
+            background-color: cadetblue;
+        }
+
+        div{
+            background-color: palevioletred;
+        }
+
+        .titulo{
+            color: aquamarine;
+        }
+
+        #titulo2{
+            color: rgb(161, 89, 140);
+        }
+
+        a[href^="https://www.platzi.com"]{
+            color: rgb(12, 1, 9);
+        }
+    </style>
+</head>
+<body>
+    <div class="titulo">Hola estoy en el curso de platzi</div>
+    <div id="titulo2">Hola estoy en el curso de platzi</div>
+    <a href="https://www.platzi.com">Platzi</a>
+    <img src="./selectores_basicos.PNG" alt="selectores basicos de css">
+</body>
+</html>

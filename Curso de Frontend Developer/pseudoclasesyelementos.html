@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo clases y pseudo elementos</title>
+    <style>
+        p {
+            background-color: cadetblue;
+        }
+
+        p :hover
+        {
+            color: red;
+        }
+
+        /*pseudoclase*/
+        div p :nth-child(2)
+        {
+            color: violet;
+        }
+
+        p::first-letter {
+            color: tomato;
+        }
+
+        p::before {
+            content: "✨";
+        }
+
+        p::after {
+            content: "🌟";
+        }
+        ::placeholder {
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo classes</a>
+        <a href="https://www.w3schools.com/css/css_pseudo_elements.asp">Pseudo elements</a>
+        <a href="https://www.w3schools.com/css/css_pseudo_classes_examples.asp">Pseudo classes examples</a>
+        <a href="https://www.w3schools.com/css/css_pseudo_elements_examples.asp">Pseudo elements examples</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Link que recomienda platzi</a>
+    </nav>
+    
+    <img src="./pseudoclase_pseudoelementos.PNG" alt="pseudo clases y pseudo elementos">
+    <p>Hola</p>
+    <div> 
+        <p>Platzi</p>
+        <P>Escuela de javascript</P>
+    </div>
+    <section>
+        <span>
+            También podemos ver a las pseudoclases como estados de algún elemento (con el mouse encima, visitado, activo, etc.) y a los pseudoelementos como elementos que escribimos desde CSS, por ejemplo, el ::after y el ::before nos puedes funcionar como divs, como su nombre lo dice, son elementos, pero no necesariamente están escritos desde el HTML 👀.
+Gracias a las pseudoclases podemos cambiar los estilos de algún elemento cuando sucede algo, por ejemplo, cuando un botón está siendo clicado se activa el pseudoelemento active, entonces nosotros desde CSS podemos cambiar el color del botón a un color más oscuro para dar ese efecto de clicado 😄:
+        </span>
+    </section>
+</body>
+</html>

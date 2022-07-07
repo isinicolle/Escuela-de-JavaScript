@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de display más usados: block, inline e inline-block</title>
+
+    <style>
+   
+      div {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background: url(img/platzi.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+      }
+
+      a {
+        color: aliceblue;
+      }
+
+      button {
+        background: aquamarine;
+        border: 1px solid aquamarine;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+    </style>
+</head>
+<body>
+    <img src="./display_masusados.PNG" alt="displays mas usados">
+    <div><strong>BLOQUE:</strong>Estos elementos ocupan toda la pantalla, por lo que si quieres agregar otro elemento, este se agregará automáticamente abajo. No importa que tengas poco contenido, el elemento sí o sí va a ocupar toda la pantalla.</div>
+    <br>
+    <a href="#" target="_blank"><strong>
+        inline:</strong> Estos elementos son los que su caja mide exactamente lo mismo que su contenido.
+         Estos elementos los podemos usar en textos y en lugar de que se agreguen en una nueva línea se agregaran justo al ladito del texto. ❗ 
+         Tienen como desventaja que no podemos ponerles márgenes ni tampoco podemos cambiar su tamaño.
+    </a> 
+    <br>
+    <button>
+        <strong>inline-block:</strong> Esto mezcla lo mejor de ambos mundos. Con este display podemos tener tanto
+         los beneficios de inline como de block, es decir, podemos 
+         tener elementos que no ocupen todo el ancho de la pantalla, 
+         sino que ocupen solamente lo que su contenido ocupa, pero 
+         también vamos a poder darle márgenes y podremos cambiar su 
+         tamaño 🤠.
+    </button>
+   <div class="platzi" id="ing">Platzi</div>
+    <img src="./display.PNG" alt="que es display">
+</body>
+</html>

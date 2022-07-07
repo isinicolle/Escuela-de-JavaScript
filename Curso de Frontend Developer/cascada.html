@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascada y especificidad en CSS</title>
+
+    <style>
+        h1 {
+            color: aquamarine;
+        }
+
+        h1 {
+            color: rgb(161, 89, 140);
+        }
+
+        #platzi {
+            width: 100px;
+            height: 100px;
+            background: url(img/platzi.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1;
+        }
+
+        .ing {
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+   <h1>Hola</h1>>
+   <a href="https://specificity.keegan.st/" target="_blank">CALCULADORA DE ESPECIFIDAD/</a>
+
+   <div class="platzi" id="ing">Platzi</div>
+    <img src="./cascada_especificadcss.PNG" alt="REGLAS CSS ESPECIFIDAD">
+    <img src="./ejemplo_cascada.PNG" alt="REGLAS CSS ESPECIFIDAD EJEMPLO">
+</body>
+</html>

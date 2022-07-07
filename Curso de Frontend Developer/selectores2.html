@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de selectores: básicos y combinadores</title>
+
+    <style>
+        /*Selector universal*/
+        *
+        {
+            margin: 0;
+            padding: 0;
+            background-color: cadetblue;
+        }
+
+        div p {
+            background-color: palevioletred;
+        }
+        
+        div > div {
+            background-color: aquamarine;
+        }
+    
+        a[href^="https://www.platzi.com"]{
+            color: rgb(12, 1, 9);
+        }
+
+        .es {
+            color: rgb(161, 89, 140);
+        }
+
+        div + section {
+            background-color: rgba(94, 32, 76, 0.596);
+        }
+
+        div ~ p {
+            color: black;
+            background-color: rgba(165, 126, 154, 0.596); /*#a5806a*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <p>
+        Hola estoy en el curso de platzi</div>
+    </p>
+
+    <br>
+    <div>
+        <div>
+           <p>Hola</p>
+           <p>Estoy</p>
+              <p>En</p>
+                <p>El</p>
+                    <p>Curso</p>
+                        <p>De</p>
+                        <p>Platzi</p>
+                        <div class="es">Hola Mundo</div>
+        </div>
+    </div>
+    <p>Clase de selectores</p>
+    <section>
+        Hola Mundo #2
+    </section>
+    <a href="https://www.platzi.com">Platzi</a>
+    <img src="./selectores_combinadores.PNG" alt="selectores combinadores de css">
+    <div>Ing. En Ciencias de la Computacion</div>
+</body>
+</html>

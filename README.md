@@ -27,5 +27,9 @@ Repositorio de los ejercicios elaborados en las clases de los cursos de la Escue
 <br>
 6.Curso Básico de JavaScript
 <br>
+7.Curso de ECMAScript 6+
+<br>
+8.Curso de Asincronismo con JavaScript
+<br>
 
 ## [ESCUELA DE JAVASCRIPT DE PLATZI](https://platzi.com/escuela-javascript/)

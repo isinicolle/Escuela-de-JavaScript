@@ -23,3 +23,5 @@ Repositorio de los ejercicios elaborados en las clases de los cursos de la Escue
 <br>
 4.Curso de Frontend Developer
 <br>
+
+## [ESCUELA DE JAVASCRIPT DE PLATZI](https://platzi.com/escuela-javascript/)

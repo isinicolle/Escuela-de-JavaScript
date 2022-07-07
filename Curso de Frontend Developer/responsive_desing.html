@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design</title>
+  <style>
+    div {
+      background: purple;
+    }
+    @media (max-width: 300px) {
+      div {
+        background: red;
+      }
+    }
+  </style>
+</head>
+<body>
+    <img src="./responsive_desing.PNG" alt="">
+  <div>
+    Platzi
+    <p>creo que la forma correcta de hacer responsive design es ir de chico a grande, es decir empezar por mobile y llegar a desktop.
+
+        Si usas algun preprocesador CSS como SASS, te dejo un mixin que utilizo para reutilizar los media queries en cualquier parte de tu CSS
+    </p>
+    <pre>
+        @mixin breakpoint($width) {
+            @media (min-width: $width) {
+                    @content;
+                }
+          }
+    </pre>
+  </div>
+</body>
+</html>

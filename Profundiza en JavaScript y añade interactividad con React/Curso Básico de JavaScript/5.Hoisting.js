@@ -93,3 +93,15 @@ function pakiman(vida)
 var vida = 2;
 vida = pakiman(vida);
 console.log(vida);
+
+
+console.log(variable);
+function declarar() { variable = 12; }
+
+
+var paki = {
+    nombre: "Pakiman",
+    ataque: 101
+};
+paki.ataque = paki.ataque * 2;
+console.log(paki.ataque);

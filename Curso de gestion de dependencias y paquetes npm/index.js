@@ -40,4 +40,20 @@
 //qutiar un apquete npm uninstall quitar un paquete
 
 //npm unistall webpack --no-save quita el paquete webpack de la lista de paquetes instalados se quita de node pero nod e package.json
+/*
+{
+    "scripts": {
+        "start": "webpack-dev-server --open --mode development",
+        "build": "webpack --mode production",
+        "deploy": "npm run format && npm run build"
+    }
+}*/
 
+
+//solucion de errores npm run build --dd vemos que sucede
+/*
+1. copiar el .log del error
+2. colocar code y pegar el log en el terminal
+
+
+*/

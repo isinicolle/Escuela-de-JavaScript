@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 5px 0;
+      padding: 5px 5px 5px 5px;
+    }
+    body {
+      background-color: #f2f2f2;
+    }
+    section {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+    align-items: center;
+
+    }
+    .card {
+      width: auto;
+      height: auto;
+      background: rgb(20, 18, 18);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: flex;
+        border-radius: 20px;
+        align-items: center;
+    }
+    .card p {
+      text-align: center;
+        color: white;
+        margin: 2px;
+    }
+    .card p:nth-child(3) {
+      color: gray;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+  <section>
+    <div class="card">
+      <img src="https://avatars.githubusercontent.com/u/92564676?v=4" alt="Isis-Zapata">
+      <p>Isis Nicolle Zapata Florentino</p>
+      <p>Computer Sciende Engineer</p>
+
+      <div class="row">
+        <div class="col-md-6">
+       Github
+      </div>
+      <div class="col-md-6">
+       LinkedIn
+    </div>
+    </div>
+  </section>
+</body>
+</html>

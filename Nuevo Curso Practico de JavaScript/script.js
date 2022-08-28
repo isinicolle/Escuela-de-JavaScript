@@ -16,3 +16,7 @@ h1.setAttribute('class', 'rojo')
 
 h1.classList.add('verde')
 h1.classList.remove('verde')
+
+input.value = 'Hola mundo'
+
+document.createElement('h1')

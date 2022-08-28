@@ -3,7 +3,7 @@
 const h1 = document.querySelector('h1')
 const p = document.querySelector('p')
 const parrafito = document.querySelector('.parrafito')
-const pid = document.getElementById('#pid')
+const pid = document.getElementById('pid')
 const input = document.querySelector('input')
 
 h1.innerHTML = 'Hola <br> mundo'
@@ -19,4 +19,7 @@ h1.classList.remove('verde')
 
 input.value = 'Hola mundo'
 
-document.createElement('h1')
+const img = document.createElement('img')
+img.setAttribute('src', 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')
+
+pid.append(img)

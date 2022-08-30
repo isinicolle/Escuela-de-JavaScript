@@ -1,6 +1,8 @@
 /**
  * Instalar: npm i xmlhttprequest
  * 
+ * XMLHttpRequest es un objeto de JS que permite hacer peticiones hacia servicios en la nube(URLs o APIs).
+ * 
  */
 
 const XMLHttpRequest = require("xmlhttprequest");
